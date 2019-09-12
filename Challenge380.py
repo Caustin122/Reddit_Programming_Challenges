@@ -3,7 +3,7 @@
 Morse_list = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
 Alphabet_list = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','x','y','z']
 
-def encode(word):
+def encode(word):                                          #translates the given word into morse code
     morse_string = ""
     for ch in word:
         index = Alphabet_list.index(ch)
